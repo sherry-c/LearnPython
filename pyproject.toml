@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "python-learn-notes"
+version = "0.1.0"
+description = ""
+authors = ["yangyong <“yangyongauto@126.com”>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+opencv-python = "^4.11.0.86"
+selenium = {version = "^4.29.0", source = "sjtu"}
+flask = {version = "^3.1.0", source = "sjtu"}
+akshare = "^1.17.16"
+matplotlib = "3.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+yapf = "^0.43.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = 'primary'
+
+[[tool.poetry.source]]
+name = "sjtu"
+url = "https://mirror.sjtu.edu.cn/pypi/web/simple"
+priority = 'supplemental'
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple"
+priority = 'supplemental'
