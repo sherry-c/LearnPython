@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-learn-notes"
+name = "LearnPython"
 version = "0.1.0"
 description = ""
 authors = ["yangyong <“yangyongauto@126.com”>"]

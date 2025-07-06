@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # 1. 定义Excel文件路径
-excel_path = "600519.xlsx"  # 假设文件与脚本同目录，否则需写绝对路径（如"C:/data/600519.xlsx"）
+excel_path = "data/600519.xlsx"  # 假设文件与脚本同目录，否则需写绝对路径（如"C:/data/600519.xlsx"）
 
 # 2. 检查文件是否存在
 if not os.path.exists(excel_path):
