@@ -26,19 +26,20 @@ def initial_browser():
 wd = initial_browser()
 # 打开指定网址
 # wd.get('https://www.baidu.com/')
+
 # https://bahuyun.com/bdp/form/1327923698319491072
 # https://sahitest.com/demo/alertTest.htm
 # wd.get('https://sahitest.com/demo/promptTest.htm')
 
 # P27 网页前进 后退
-wd.get('https://www.baidu.com/')
-wd.find_elements(By.XPATH, '/html/body/div[1]/div[1]/div[6]/div/div/form/span[1]/input')[0].send_keys('apple')
-time.sleep(1)
-wd.find_elements(By.XPATH, '/html/body/div[1]/div[1]/div[6]/div/div/form/span[2]/input')[0].click()
-time.sleep(1)
-wd.back()
-time.sleep(1)
-wd.forward()
+# wd.get('https://www.baidu.com/')
+# wd.find_elements(By.XPATH, '/html/body/div[1]/div[1]/div[6]/div/div/form/span[1]/input')[0].send_keys('apple')
+# time.sleep(1)
+# wd.find_elements(By.XPATH, '/html/body/div[1]/div[1]/div[6]/div/div/form/span[2]/input')[0].click()
+# time.sleep(1)
+# wd.back()
+# time.sleep(1)
+# wd.forward()
 
 
 # P26 获取元素文本内容 是否可见
